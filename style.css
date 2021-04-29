@@ -1,0 +1,146 @@
+body, ul, li, h1, h2, a, head{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: red;
+    padding: 20px;
+}
+
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+}
+
+nav li {
+    outline: green outset 2px;
+    background-color: orange;
+    font-size: 20px;
+    display: inline;
+    padding: 2px 4px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+nav li:hover{
+    color: lightblue;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+section.featured-dishes h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+
+.images li {
+    list-style: none;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.images li img {
+    max-width: 100%;
+}
+
+main::after{
+    content: 'sup';
+    clear: both;
+    background-color: red;
+    display: block;
+    font-size: 40px;
+    text-align: center;
+}
+
+section.join {
+    clear: both;
+    width: 100%;
+    background-color: rgb(86, 86, 192, 0.8);
+    text-align: center;
+    padding: 30px 0;
+}
+
+section.join h1 {
+    font-size: 35px;
+    margin: 10px;
+}
+form div {
+    padding: 5px;
+} 
+
+/* .app-img-wrapper {
+    position: sticky; 
+    display: inline-block; 
+  }
+  
+  .app-img-link:hover:before {
+    opacity: 1;
+  }
+
+
+  .app-img-link:hover {
+    background: rgba(34, 139, 34, 0.7);
+    color: black;
+  }
+  
+  .app-img {
+    display: block;
+  }
+  
+  .app-img-text {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+     /* fallback color 
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin: 0;
+    transition: background .5s, color .5s;
+  } 
+  
+  .app-img-link:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: 'Click to view info';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity .5s;
+    opacity: 0;
+  } */
